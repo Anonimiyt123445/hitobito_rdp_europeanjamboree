@@ -42,13 +42,13 @@ module RdpEuropeanjamboree
 
         # TODO must be a better way to select from settings.yml
         if @person.role == Settings.person.role.ul or @person.role == Settings.person.role.ut or not @person.role.present?
-            Settings.tour.each { |tour|
+            Settings.tour_unit.each { |tour|
                 tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
                 @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
             }  
         end 
         if @person.role == Settings.person.role.cmt or @person.role == Settings.person.role.ist or not @person.role.present?
-            Settings.no_tour.each { |tour|
+            Settings.tour_orga.each { |tour|
                 tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
                 @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
             }  

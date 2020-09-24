@@ -47,12 +47,13 @@ countries:
     - FR
     - IT
 
-tour:
+tour_unit:
   vt: Vortour
   nt: Nachtour
-no_tour:
   kt: Keine Tour
+tour_orga:
   so: Selbst organisierte Tour
+  kt: Keine Tour
 
 association_tree:
   DPSG:

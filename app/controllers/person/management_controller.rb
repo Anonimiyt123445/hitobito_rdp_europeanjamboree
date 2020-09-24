@@ -33,11 +33,11 @@ class Person::ManagementController < ApplicationController
         }  
 
         @possible_tour = ""
-        Settings.tour.each { |tour|
+        Settings.tour_unit.each { |tour|
             tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
             @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
         }  
-        Settings.no_tour.each { |tour|
+        Settings.tour_orga.each { |tour|
             tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
             @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
         }  
