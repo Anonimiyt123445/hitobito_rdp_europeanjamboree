@@ -44,7 +44,9 @@
                                   'people_relation_fields',
                                   entry.relations_to_tails.includes(:tail)
 
-
+= t('info.associations')
+%br
+%br
 = f.labeled_input_fields :rdp_association_number
 = f.labeled_input_fields :rdp_association
 = f.labeled_input_fields :rdp_association_region
@@ -64,7 +66,6 @@
   = f.labeled_input_field(:additional_information, help: t('.no_sensitive_information'))
 
 :javascript
-  var OTHER = "Andere"
   var association_tree = JSON.parse('#{raw @association_tree.to_json}');
   var rdp_association = '#{@person.rdp_association}';
   var rdp_association_region = '#{@person.rdp_association_region}';

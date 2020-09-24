@@ -245,7 +245,7 @@ association_tree:
         Ingolstadt, Münsterritter:
         Ingolstadt, St. Pius:
     Essen:
-      Bezirk Borbeck & Frohnhausen:
+      Bezirk Borbeck Frohnhausen:
         Essen-Borbeck, Anne Frank:
         Essen-Frintrop, St. Josef:
         Essen-Schönebeck, St. Ant. Abbas:
@@ -292,7 +292,7 @@ association_tree:
         Wetter-Volmst., Augustinus und Monika:
       Hattingen-Niederbonsfeld, Isenburg:
         Hattingen - Winz-Baak, Heilig Geist:
-        Hattingen-Niederwenigern, "Die Wennischen":
+        Hattingen-Niederwenigern, Die Wennischen:
         DPSG Janusz Korczak Wetter-Wengern:
       Bezirk Gelsenkirchen:
         Gelsenkirchen-Horst, Albino Luciani:
@@ -467,13 +467,14 @@ association_tree:
         Freiburg-Vauban, Kassiopeia:
         Freiburg-St. Georgen, Betty Clay:
     Fulda:
+      Keine Bezirksebene:
         Kassel-Vellmar, Folke Bernadotte:
         Hünfeld, St. Jakobus:
         Marburg, St. Michael:
         Witzenhausen, Witta:
         Fulda-Neuenberg, St. Andreas:
         Melsungen, Mariä Himmelfahrt:
-      Bachrain, Maria Hilf:
+        Bachrain, Maria Hilf:
         Fulda-Johannesberg, Mirjam:
         Wolfhagen, Heimerad, St. Maria:
         Bad Orb, St. Martin:
@@ -484,7 +485,7 @@ association_tree:
         Grossauheim, St. Paul:
         Nidderau-Windecken, Wartbaum:
         Rodenbach, Barbarossa:
-      Wächtersbach, St. Bonifatius:
+        Wächtersbach, St. Bonifatius:
         Biebergemünd-Wirtheim, St. Jakobus:
         Niederdorfelden:
     Hildesheim:
@@ -637,6 +638,7 @@ association_tree:
         Leichlingen, Wippera, St. Johannes Baptist:
         Wipperfürth:
     Limburg:
+      Keine Bezirksebene:
         Frankfurt-Fechenheim, Normannen:
         Frankfurt Nord / Stamm Marcel Callo:
         Frankfurt-Rödelheim, Damian de Veuster:
@@ -905,6 +907,7 @@ association_tree:
         Olfen, St. Vitus:
         Coesfeld:
     Osnabrück:
+      Keine Bezirksebene:
         Emden, Regenbogen:
         Haren, Nordlicht Altharen:
         Lathen, Polarstern:
@@ -1014,6 +1017,7 @@ association_tree:
         Brenkhausen, St. Johannes:
         Höxter-Ottbergen:
     Passau:
+      Keine Bezirksebene:
         Hengersberg:
         DPSG Fürstenstein-Nammering:
         Salzweg, Sophie Scholl:
@@ -1331,6 +1335,7 @@ association_tree:
         Wertheim:
         Volkach, St. Bartholomäus:
     Magdeburg:
+      Keine Bezirksebene:
         Magdeburg, Unser lieben Frauen:
         Sangerhausen-Altstadt, St. Jutta:
         Badersleben, Sankt Martin e.V.:
@@ -1340,8 +1345,15 @@ association_tree:
         Dresden-Löbtau, Drachentöter:
         Leipzig, Tilia:
     Erfurt:
+      Keine Bezirksebene:
+        Jena, St. Michael: 
+        Uder, St. Jakobus:
+        Heiligenstadt, St. Aegidien:
+        Erfurt, St. Elisabeth:
+        Weimar, Marcel Callo:
         Niederorschel, St. Marien:
     Hamburg:
+      Keine Bezirksebene:
         Hamburg-Rahlstedt, Mutter Teresa:
         Hamburg-Hamm, Charles de Foucauld:
         Hamburg-Farmsen, St. Ansgar:
@@ -1349,7 +1361,7 @@ association_tree:
         Hamburg-Harburg, Kardinal Graf  v. Galen:
         Hamburg-Neugraben, Störtebeker:
         Hamburg-Poppenbüttel, Don Bosco:
-      Hamburg-Volksdorf, St. Martin:
+        Hamburg-Volksdorf, St. Martin:
         Ahrensburg, Camilo Torres:
         Norderstedt, St. Hedwig:
         Hamburg-Altona, Große Freiheit:
@@ -1513,274 +1525,285 @@ association_tree:
         Siedlung St. Elisabeth - Aschaffenburg:
   BdP:
     Baden-Württemberg:
-      Draconis:
-      Drágan:
-      Filderfüchse:
-      Taquena:
-      Adler:
-      Armer Konrad:
-      Bärengrund:
-      Beowulf:
-      Bergwolf:
-      Bundschuh:
-      Burg Karlsruhe:
-      der Elche:
-      der Raben:
-      Diadochen:
-      Einhorn:
-      Feuerreiter:
-      Grenzland:
-      Mammut:
-      Nibelgau:
-      Schwarze Wölfe:
-      Schwarzer Panter:
-      Silberreiher:
-      St. Jörg:
-      Sternfahrer:
-      Stettenfels:
-      Sueben:
-      Ulrich v. Hutten:
-      Weiße Rotte:
-      Yanktonai:
+      Keine Bezirksebene:
+        Draconis:
+        Drágan:
+        Filderfüchse:
+        Taquena:
+        Adler:
+        Armer Konrad:
+        Bärengrund:
+        Beowulf:
+        Bergwolf:
+        Bundschuh:
+        Burg Karlsruhe:
+        der Elche:
+        der Raben:
+        Diadochen:
+        Einhorn:
+        Feuerreiter:
+        Grenzland:
+        Mammut:
+        Nibelgau:
+        Schwarze Wölfe:
+        Schwarzer Panter:
+        Silberreiher:
+        St. Jörg:
+        Sternfahrer:
+        Stettenfels:
+        Sueben:
+        Ulrich v. Hutten:
+        Weiße Rotte:
+        Yanktonai:
     Bayern:
-      Adler:
-      Colmberg:
-      Merlin:
-      Phönix:
-      Seewölfe Lindau:
-      Thor Heyerdahl:
-      Weiße Wölfe:
-      Albatros:
-      Alemannen:
-      Artus:
-      Asgard:
-      Bären:
-      Barrakuda:
-      Berglöwen:
-      Burgund:
-      Bussard:
-      Castellum ad Luofi:
-      Cebolon:
-      Cosuaneten:
-      Don Bosco:
-      Eisvogel:
-      Eulen:
-      Excalibur:
-      Faber:
-      Fafnir:
-      Goldene Horde:
-      Goten:
-      Graf Gebhard:
-      Jakob Fugger:
-      Jean Monnet:
-      Kelten:
-      Kim:
-      Leones Oeni:
-      Löwe von Meissen:
-      Marco Polo:
-      Nacanapah:
-      Outpost:
-      Pegasus:
-      Robin Hood:
-      Schwarzer Haufen:
-      Schwarzer Mustang:
-      Seeadler Bamberg:
-      Seeadler Kirchheim:
-      Seeschwalben:
-      Shir Khan:
-      Sigena:
-      Sir Francis Drake:
-      Skythen:
-      Stamm 42:
-      Staufen:
-      Steinadler:
-      Steinadler Erlangen:
-      Truchseß:
-      Waräger:
-      Wittelsbach:
+      Keine Bezirksebene:
+        Adler:
+        Colmberg:
+        Merlin:
+        Phönix:
+        Seewölfe Lindau:
+        Thor Heyerdahl:
+        Weiße Wölfe:
+        Albatros:
+        Alemannen:
+        Artus:
+        Asgard:
+        Bären:
+        Barrakuda:
+        Berglöwen:
+        Burgund:
+        Bussard:
+        Castellum ad Luofi:
+        Cebolon:
+        Cosuaneten:
+        Don Bosco:
+        Eisvogel:
+        Eulen:
+        Excalibur:
+        Faber:
+        Fafnir:
+        Goldene Horde:
+        Goten:
+        Graf Gebhard:
+        Jakob Fugger:
+        Jean Monnet:
+        Kelten:
+        Kim:
+        Leones Oeni:
+        Löwe von Meissen:
+        Marco Polo:
+        Nacanapah:
+        Outpost:
+        Pegasus:
+        Robin Hood:
+        Schwarzer Haufen:
+        Schwarzer Mustang:
+        Seeadler Bamberg:
+        Seeadler Kirchheim:
+        Seeschwalben:
+        Shir Khan:
+        Sigena:
+        Sir Francis Drake:
+        Skythen:
+        Stamm 42:
+        Staufen:
+        Steinadler:
+        Steinadler Erlangen:
+        Truchseß:
+        Waräger:
+        Wittelsbach:
     Berlin/Brandenburg:
-      Heveller:
-      Plejaden:
-      Alanen:
-      Askanier:
-      Burgund:
-      Grabowski:
-      Kelten:
-      Kimbern:
-      Normannen:
-      Stamm der Hunnen:
-      Teutonen:
-      Waringar:
+      Keine Bezirksebene:
+        Heveller:
+        Plejaden:
+        Alanen:
+        Askanier:
+        Burgund:
+        Grabowski:
+        Kelten:
+        Kimbern:
+        Normannen:
+        Stamm der Hunnen:
+        Teutonen:
+        Waringar:
     Bremen:
-      de Poppenspeeler:
-      Goten:
-      Hanseaten:
-      Lesmona:
-      Phönix:
-      Rainbow:
-      Schevemoor:
-      Wilhelm Olbers:
+      Keine Bezirksebene:
+        de Poppenspeeler:
+        Goten:
+        Hanseaten:
+        Lesmona:
+        Phönix:
+        Rainbow:
+        Schevemoor:
+        Wilhelm Olbers:
     Hessen:
-      Luchs:
-      Merlin:
-      Pioniere Darmstadt:
-      Arnsburg:
-      Artus:
-      Berglöwe:
-      Burgheldon:
-      Chatten:
-      Christophorus:
-      der Vaganten:
-      Deutschritter:
-      Eisvogel:
-      Excalibur:
-      Feuerreiter:
-      Fischreiher:
-      Graue Adler:
-      Graue Bären:
-      Graue Biber:
-      Graue Drachen:
-      Graue Wölfe:
-      Greif:
-      Greutungen:
-      Hagen von Tronje:
-      Hattstein:
-      Konradstein:
-      Löwenherz:
-      Plejaden:
-      Roter Milan:
-      Schinderhannes:
-      Seeadler:
-      Steinadler:
-      Turtle:
-      Wikinger:
-      Wildwasser:
-      Wilhelm Busch:
-      Wisent:
-      Wüstenfüchse:
-      Zugvögel:
+      Keine Bezirksebene:
+        Luchs:
+        Merlin:
+        Pioniere Darmstadt:
+        Arnsburg:
+        Artus:
+        Berglöwe:
+        Burgheldon:
+        Chatten:
+        Christophorus:
+        der Vaganten:
+        Deutschritter:
+        Eisvogel:
+        Excalibur:
+        Feuerreiter:
+        Fischreiher:
+        Graue Adler:
+        Graue Bären:
+        Graue Biber:
+        Graue Drachen:
+        Graue Wölfe:
+        Greif:
+        Greutungen:
+        Hagen von Tronje:
+        Hattstein:
+        Konradstein:
+        Löwenherz:
+        Plejaden:
+        Roter Milan:
+        Schinderhannes:
+        Seeadler:
+        Steinadler:
+        Turtle:
+        Wikinger:
+        Wildwasser:
+        Wilhelm Busch:
+        Wisent:
+        Wüstenfüchse:
+        Zugvögel:
     Niedersachsen:
-      Adler:
-      Aldenburg:
-      Altai Maral:
-      Amelungen:
-      Askanier:
-      Ata Ulf:
-      Birkhahn:
-      Eiche:
-      Eisvogel:
-      Germanen:
-      Graf Walo:
-      Großer Jäger:
-      Hasko:
-      Helmburgis:
-      Horse:
-      Ikarus:
-      Leviatan:
-      Likedeeler:
-      Lunen:
-      Manninga:
-      Nujakin:
-      Oestringen:
-      Ordensritter:
-      Parzival:
-      Rotmilan:
-      Sankt Hubertus:
-      Sturmvogel:
-      Vaganten:
-      Voortrekker:
-      Weiße Rose:
-      Wikinger:
-      Wildgänse:
+      Keine Bezirksebene:
+        Adler:
+        Aldenburg:
+        Altai Maral:
+        Amelungen:
+        Askanier:
+        Ata Ulf:
+        Birkhahn:
+        Eiche:
+        Eisvogel:
+        Germanen:
+        Graf Walo:
+        Großer Jäger:
+        Hasko:
+        Helmburgis:
+        Horse:
+        Ikarus:
+        Leviatan:
+        Likedeeler:
+        Lunen:
+        Manninga:
+        Nujakin:
+        Oestringen:
+        Ordensritter:
+        Parzival:
+        Rotmilan:
+        Sankt Hubertus:
+        Sturmvogel:
+        Vaganten:
+        Voortrekker:
+        Weiße Rose:
+        Wikinger:
+        Wildgänse:
     Nordrhein-Westfalen:
-      Bergluchse (Bergneustadt):
-      Korsaren:
-      Saint Josef:
-      Sirius:
-      Camelot:
-      Eisvogel Heljens:
-      Erdenburg:
-      Folke Bernadotte:
-      Gegenwind:
-      Hubertus:
-      Janusz Korczak:
-      Jupiter:
-      Kürten:
-      Langenberg:
-      Martin Luther King:
-      Molinero:
-      Nebelkrähen:
-      Nordlicht:
-      Oberon:
-      Orion:
-      Phönix:
-      Ritter vom Loe zum Loe:
-      Roter Löwe:
-      Skoten:
-      totila:
-      Vagabunden:
-      Weiße Möwen:
-      Weiße Rose:
-      Wichmarinchusen:
-      Wildkatzen:
-      Winrich von Kniprode:
+      Keine Bezirksebene:
+        Bergluchse (Bergneustadt):
+        Korsaren:
+        Saint Josef:
+        Sirius:
+        Camelot:
+        Eisvogel Heljens:
+        Erdenburg:
+        Folke Bernadotte:
+        Gegenwind:
+        Hubertus:
+        Janusz Korczak:
+        Jupiter:
+        Kürten:
+        Langenberg:
+        Martin Luther King:
+        Molinero:
+        Nebelkrähen:
+        Nordlicht:
+        Oberon:
+        Orion:
+        Phönix:
+        Ritter vom Loe zum Loe:
+        Roter Löwe:
+        Skoten:
+        totila:
+        Vagabunden:
+        Weiße Möwen:
+        Weiße Rose:
+        Wichmarinchusen:
+        Wildkatzen:
+        Winrich von Kniprode:
     Rheinland-Pfalz/Saar:
-      Ciconia:
-      Albert Schweitzer:
-      Bundschuh:
-      der Piraten:
-      Drache:
-      Falke:
-      Franz von Sickingen:
-      Goten:
-      Graf von Sponheim:
-      Idar-Oberstein:
-      Kurpfalz:
-      Luchs:
-      Pilgrim Falkoni:
-      Raugrafen:
-      Robin Hood:
-      Schwarzer Milan:
-      Sturmvogel:
-      Tscherkessen:
-      Vogt von Hunolstein:
-      von Helfenstein:
+      Keine Bezirksebene:
+        Ciconia:
+        Albert Schweitzer:
+        Bundschuh:
+        der Piraten:
+        Drache:
+        Falke:
+        Franz von Sickingen:
+        Goten:
+        Graf von Sponheim:
+        Idar-Oberstein:
+        Kurpfalz:
+        Luchs:
+        Pilgrim Falkoni:
+        Raugrafen:
+        Robin Hood:
+        Schwarzer Milan:
+        Sturmvogel:
+        Tscherkessen:
+        Vogt von Hunolstein:
+        von Helfenstein:
     Sachsen:
-      der Jötnar:
-      Feuerland:
-      Ancalagon:
-      Goldener Reiter:
-      LEO:
-      Wildkatzen:
+      Keine Bezirksebene:
+        der Jötnar:
+        Feuerland:
+        Ancalagon:
+        Goldener Reiter:
+        LEO:
+        Wildkatzen:
     Sachsen-Anhalt:
-      Brizanen:
-      Peißnitz:
+      Keine Bezirksebene:
+        Brizanen:
+        Peißnitz:
     Schleswig-Holstein/Hamburg:
-      Carsten Niebuhr:
-      Uhlenhorst:
-      Albatros:
-      Domzoo:
-      Duburg:
-      Fealoce:
-      Geisterburg:
-      Inka:
-      Janus:
-      Kolibri:
-      Möwe:
-      Norwing:
-      Nydam:
-      Radwersdorp:
-      Reinholdsburg:
-      Sachsenwald:
-      St. Jürgen:
-      Störtebeker:
-      Torona:
-      Waldreiter:
-    Thüringen:
-      Arnstadt:
-      Bussarde vom Burgberg:
-      Columbus:
-      Falken vom Greifenstein:
+      Keine Bezirksebene:
+        Carsten Niebuhr:
+        Uhlenhorst:
+        Albatros:
+        Domzoo:
+        Duburg:
+        Fealoce:
+        Geisterburg:
+        Inka:
+        Janus:
+        Kolibri:
+        Möwe:
+        Norwing:
+        Nydam:
+        Radwersdorp:
+        Reinholdsburg:
+        Sachsenwald:
+        St. Jürgen:
+        Störtebeker:
+        Torona:
+        Waldreiter:
+      Thüringen:
+        Arnstadt:
+        Bussarde vom Burgberg:
+        Columbus:
+        Falken vom Greifenstein:
   VCP:
     Hamburg:
       Harburg:
@@ -1885,7 +1908,6 @@ association_tree:
         Johannesstift:
         Prenzlau:
         Neugründung:
-        Neugründung:
         Groß Kreutz/Stamm Krusevica:
         Strausberg:
     Schleswig-Holstein:
@@ -1943,10 +1965,6 @@ association_tree:
         Hainleite:
         Siedlung Erfurt:
         Thüringer Wanderfalken :
-        Stamm Drei Gleichen:
-        Stamm Drei Gleichen:
-        Stamm Drei Gleichen:
-        Stamm Drei Gleichen:
         Stamm Drei Gleichen:
         Stamm Am Gottlob:
         VCP Rastenberger Orgelpfeifen:
@@ -2146,7 +2164,6 @@ association_tree:
         Duborn:
         Martin Luther King:
         Eldar:
-        Eldar:
         Densiwiniwasitu:
         Hermann von Salza:
         VCP Ginsheim:
@@ -2259,13 +2276,8 @@ association_tree:
     Württemberg:
       Schönbuch-Würm:
         Christoph Kolumbus:
-        Christoph Kolumbus:
-        Christoph Kolumbus:
         Schönbuchtrapper:
         Abt Johann:
-        Abt Johann:
-        Seattle:
-        Seattle:
         Seattle:
       Gau Hohenlohe:
         Siedlung Lichteneck:
@@ -2387,7 +2399,6 @@ association_tree:
       Grenzland:
         Martin Luther:
         Konrad von Rötteln:
-        Konrad von Rötteln:
         Die Brücke:
       Bodensee:
         Jan Hus :
@@ -2461,12 +2472,14 @@ association_tree:
         Parzival:
         Cassiopeia :
   BMPPD:
-    Bergisch Gladbach:
-    Dortmund:
-    Duisburg/Essen:
-    Hamburg:
-    Hanau:
-    Mainz:
-    Monheim am Rhein:
-    Rüsselsheim:
-    Wiesbaden:
+    Keine Landesebene:
+      Keine Bezirksebene:
+        Bergisch Gladbach:
+        Dortmund:
+        Duisburg/Essen:
+        Hamburg:
+        Hanau:
+        Mainz:
+        Monheim am Rhein:
+        Rüsselsheim:
+        Wiesbaden:
