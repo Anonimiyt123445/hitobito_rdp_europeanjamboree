@@ -87,6 +87,7 @@ module RdpEuropeanjamboree
             text "Hinweis: Eine nicht erteilte Schulbefreiung oder fehlende Einreisedokumente berechtigen nicht zum kostenfreien Reiserücktritt."
             pdf.move_down 3.mm
             text "Der rdp e.V. kann bei einer Absage des „European Jamborees“ durch den Veranstalter (ZHP, Polen) vom Vertrag zurücktreten."
+            pdf.move_down 3.mm
             text "Zusätzlich kann der rdp e.V. kann neben den gesetzlichen Gründen bei folgenden Sachverhalten vom Vertrag zurücktreten:"
             text "- erhebliches vertragswidriges Verhalten des*der Teilnehmenden und erfolgter schriftlicher Mahnung in Textform (z.B. E-Mail) "
             text "- wenn Lastschriften nicht eingelöst werden oder ihnen widersprochen wurde und nach schriftlicher Aufforderung der ausstehende Teil des Teilnahmebeitrags sowie anfallender Gebühren nicht innerhalb von zwei Wochen bezahlt wird"
@@ -112,13 +113,13 @@ module RdpEuropeanjamboree
             pdf.move_down 3.mm
             text "Unitleitung", :size =>10
             text "Rücktritt bis 31.12.2020   360 EUR"
-            text "Rücktritt bis 31.03.2020   630 EUR"
-            text "Rücktritt bis 01.05.2020   900 EUR"
+            text "Rücktritt bis 31.03.2021   630 EUR"
+            text "Rücktritt bis 01.05.2021   900 EUR"
             pdf.move_down 3.mm
             text "IST:", :size =>10
             text "Rücktritt bis 31.12.2020   300 EUR"
-            text "Rücktritt bis 31.03.2020   525 EUR"
-            text "Rücktritt bis 01.05.2020   750 EUR"
+            text "Rücktritt bis 31.03.2021   525 EUR"
+            text "Rücktritt bis 01.05.2021   750 EUR"
             pdf.move_down 3.mm
             text "Leistungen", :size =>12
             text "Folgende Leistungen sind in allen Paketen enthalten:", :size =>10
