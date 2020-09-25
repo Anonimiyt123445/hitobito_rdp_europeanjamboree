@@ -45,7 +45,7 @@ module RdpEuropeanjamboree
             pdf.move_down 3.mm
             text "Reiseform", :size =>12
             text "Die Reise findet in Units statt. Eine Unit besteht aus 36 Teilnehmer/innen und vier volljährigen Unitleiter/innen. Die Zuteilung in Units wird von der Kontingentsleitung unter Berücksichtigung der Buchung, Wohnort und der Wünsche der Teilnehmer/innen vorgenommen. Dem Ringe-Kontingentsgedanken folgend, sollen die Units aus Teilnehmer*innen aller Ringe-Verbände bestehen. Ein Wechsel zwischen den Buchungen ist in Absprache mit der Kontingentsleitung vor Bildung der Units möglich."
-            text "Vor der Reise nach Polen finden verbindliche Vorbereitungstreffen in der zugeteilten Unit statt, die mindestens zwei Wochenenden umfassen. Die Termine werden von der jeweiligen Unitleitung mitgeteilt."
+            text "Vor der Reise nach Polen finden verbindliche Vorbereitungstreffen in der zugeteilten Unit statt, die mindestens ein Wochenende umfasst. Die Termine werden von der jeweiligen Unitleitung mitgeteilt."
             text "Die Teilnahme an den Vorbereitungstreffen ist Voraussetzung für die Teilnahme am European Jamboree. Kann die Teilnahme nicht gewährleistet werden, ist Rücksprache mit der Kontingentsleitung zu halten."
             pdf.move_down 3.mm
             text "Teilnahmevoraussetzung", :size =>12
@@ -84,17 +84,17 @@ module RdpEuropeanjamboree
             text "- Eine Benennung einer*eines Ersatzteilnehmenden und damit eine Reduzierung des Schadens ist nur bis zu 4 Wochen vor dem ersten Unittreffen möglich."
             text "- Eine Anwendung einer Härtefallregelung kann bei der KL schriftlich beantragt werden."
             pdf.move_down 3.mm
-            text "Hinweis: Eine nicht erteilte Schulbefreiung oder fehlende Einreisedokumente berechtigen nicht zum kostenfreien Reiserücktritt. "
+            text "Hinweis: Eine nicht erteilte Schulbefreiung oder fehlende Einreisedokumente berechtigen nicht zum kostenfreien Reiserücktritt."
             pdf.move_down 3.mm
-            text "Der rdp e.V. kann neben den gesetzlichen Gründen bei folgenden Sachverhalten vom Vertrag zurücktreten:", :size =>12
-            text "- Absage des „European Jamborees“ durch den Veranstalter (ZHP, Polen)"
-            text "- erhebliches vertragswidriges Verhalten des/der Teilnehmenden und erfolgter schriftlicher Mahnung in Textform (z.B. E-Mail) "
+            text "Der rdp e.V. kann bei einer Absage des „European Jamborees“ durch den Veranstalter (ZHP, Polen) vom Vertrag zurücktreten."
+            text "Zusätzlich kann der rdp e.V. kann neben den gesetzlichen Gründen bei folgenden Sachverhalten vom Vertrag zurücktreten:"
+            text "- erhebliches vertragswidriges Verhalten des*der Teilnehmenden und erfolgter schriftlicher Mahnung in Textform (z.B. E-Mail) "
             text "- wenn Lastschriften nicht eingelöst werden oder ihnen widersprochen wurde und nach schriftlicher Aufforderung der ausstehende Teil des Teilnahmebeitrags sowie anfallender Gebühren nicht innerhalb von zwei Wochen bezahlt wird"
-            text "- wenn der/die Teilnehmer/in nicht an den Vorbereitungstreffen teilnimmt"
+            text "- wenn der*die Teilnehmer*in nicht an den Vorbereitungstreffen teilnimmt"
             text "- wenn keine oder nicht rechtzeitige persönliche Anmeldung für IST und CMT auf der noch zu benennenden Internetseite des ZHP erfolgt"
             text "- wenn die bei der Anmeldung abgefragten Daten zur Gesundheitsvorsorge nicht wahrheitsgemäß dem rdp zur Verfügung gestellt wurden"
-            text "- wenn der/die Teilnehmer/in gegen die Satzung des jeweiligen Verbandes (BdP, BMPPD, DPSG, PSG oder VCP) verstößt"
-            text "- wenn der/die Teilnehmer/in die Mitgliedschaft in seinem*ihrem Verband (BdP, BMPPD, DPSG, PSG oder VCP) aufgibt oder verliert"
+            text "- wenn der*die Teilnehmer*in gegen die Satzung des jeweiligen Verbandes (BdP, BMPPD, DPSG, PSG oder VCP) verstößt"
+            text "- wenn der*die Teilnehmer*in die Mitgliedschaft in seinem*ihrem Verband (BdP, BMPPD, DPSG, PSG oder VCP) aufgibt oder verliert"
             text "- wenn andere wichtige Gründe es für den rdp e.V. unzumutbar erscheinen lassen, am Vertrag festzuhalten"
             pdf.move_down 3.mm
             text "Tritt der rdp e.V. aus einem, im vorherigen Abschnitt genannten Grund von dem Vertrag zurück, hat der/die Teilnehmende dem rdp e.V. den entstandenen Schaden zu ersetzen. Eventuelle Mehrkosten für die Rückbeförderung von einem Treffen oder dem European Jamboree selbst, muss der/die Teilnehmende selbst tragen. Es steht dem*der Teilnehmenden frei, einen geringeren oder keinen Schaden nachzuweisen. Der rdp e.V. kann weitergehende Schäden ebenfalls geltend machen."
@@ -122,7 +122,7 @@ module RdpEuropeanjamboree
             pdf.move_down 3.mm
             text "Leistungen", :size =>12
             text "Folgende Leistungen sind in allen Paketen enthalten:", :size =>10
-            text "-	mindestens zwei Vorbereitungstreffen/Vorbereitungswochenenden für Unitteilnehmende und Unitleitungen in Deutschland inklusive An- und Abreise "
+            text "-	mindestens ein Vorbereitungstreffen/Vorbereitungswochenende für Unitteilnehmende und Unitleitungen in Deutschland inklusive An- und Abreise "
             text "-	Kontingents-Vorbereitungslager vom 13.05. – 16.05.2020 in Westernohe (DPSG Bundeszentrum) inkl. An- und Abreise innerhalb Deutschlands*"
             text "-	Jamboree (Ringe) Kluft/Tracht mit dazugehörigen Aufnähern und Ringehalstuch"
             text "-	Programm- und Vorbereitungskosten des rdp-Kontingents"

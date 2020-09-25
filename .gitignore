@@ -26,3 +26,5 @@ rubocop-results.xml
 
 
 bin/associations.sql
+db/seeds/production/0_groups.rb
+db/seeds/production/1_people.rb

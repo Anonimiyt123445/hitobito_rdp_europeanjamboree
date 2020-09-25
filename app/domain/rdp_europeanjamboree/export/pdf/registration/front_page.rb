@@ -36,7 +36,7 @@ module RdpEuropeanjamboree
               pdf.move_down 2.mm
               pdf.text "als " + @person.role, :size => 10
               pdf.move_down 2.mm
-              pdf.text "für das Deutsche Kontingent zum European Jamboree 2021" , :size => 10
+              pdf.text "für das Deutsche Kontingent zum European Jamboree 2020+1" , :size => 10
               pdf.text "#" + @person.id.to_s,  :size => 10
               #stroke_horizontal_rule
             end

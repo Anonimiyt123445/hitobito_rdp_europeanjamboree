@@ -14,6 +14,6 @@ class WelcomeMailer < JamboreeMailer
     @url = 'https://europeanjamboree.de/anmeldung'
     @resource = person
     @token = person.generate_reset_password_token!
-    mail(to: person.email, subject: "Willkommen bei der Anmeldung zum European Jamboree 2021")
+    mail(to: person.email, subject: "Willkommen bei der Anmeldung zum European Jamboree 2020+1")
   end
 end
