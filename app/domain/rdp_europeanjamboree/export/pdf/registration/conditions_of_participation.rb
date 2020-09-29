@@ -124,12 +124,12 @@ module RdpEuropeanjamboree
             text "Leistungen", :size =>12
             text "Folgende Leistungen sind in allen Paketen enthalten:", :size =>10
             text "-	mindestens ein Vorbereitungstreffen/Vorbereitungswochenende für Unitteilnehmende und Unitleitungen in Deutschland inklusive An- und Abreise "
-            text "-	Kontingents-Vorbereitungslager vom 13.05. – 16.05.2020 in Westernohe (DPSG Bundeszentrum) inkl. An- und Abreise innerhalb Deutschlands*"
+            text "-	Kontingents-Vorbereitungslager vom 13.05. – 16.05.2021 in Westernohe (DPSG Bundeszentrum) inkl. An- und Abreise innerhalb Deutschlands*"
             text "-	Jamboree (Ringe) Kluft/Tracht mit dazugehörigen Aufnähern und Ringehalstuch"
             text "-	Programm- und Vorbereitungskosten des rdp-Kontingents"
             text "-	Reisepreissicherungsschein des Veranstalters (rdp)"
             text "-	Haftpflicht- und Unfallversicherung"
-            text "-	Teilnahme am European Jamboree 2020 in Gdansk (Danzig)/Polen mit An- und Abreise (außer IST) aus Deutschland nach Polen und zurück."
+            text "-	Teilnahme am European Jamboree 2020+1 in Gdansk (Danzig)/Polen mit An- und Abreise (außer IST) aus Deutschland nach Polen und zurück."
             text "-	Zentraler Transport des Unit- und Kontingentsmaterials aus Deutschland nach Polen und zurück. Nach Verfügbarkeit können sich IST dem zentralen Materialtransport anschließen."
             pdf.move_down 3.mm
             text "Folgende zusätzliche Leistungen sind bei einer Buchung Vor- oder Nachtour enthalten:", :size =>10
