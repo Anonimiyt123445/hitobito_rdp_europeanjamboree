@@ -47,14 +47,11 @@ countries:
     - FR
     - IT
 
-tour_unit:
+tour:
   vt: Vortour
   nt: Nachtour
   kt: Keine Tour
-tour_orga:
-  so: Selbst organisierte Tour
-  kt: Keine Tour
-
+  
 association_tree:
   DPSG:
     Aachen:

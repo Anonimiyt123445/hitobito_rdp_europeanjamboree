@@ -38,21 +38,12 @@ module RdpEuropeanjamboree
       #   GET /entries/1/edit
       def edit(&block)
         @association_tree = Settings.association_tree
+        
         @possible_tour = ""
-
-        # TODO must be a better way to select from settings.yml
-        if @person.role == Settings.person.role.ul or @person.role == Settings.person.role.ut or not @person.role.present?
-            Settings.tour_unit.each { |tour|
-                tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
-                @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
-            }  
-        end 
-        if @person.role == Settings.person.role.cmt or @person.role == Settings.person.role.ist or not @person.role.present?
-            Settings.tour_orga.each { |tour|
-                tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
-                @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
-            }  
-        end 
+        Settings.tour.each { |tour|
+            tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
+            @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
+        }  
 
         @possible_roles = "" 
         Settings.person.role.each { |role|
