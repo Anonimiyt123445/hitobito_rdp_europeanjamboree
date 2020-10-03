@@ -108,8 +108,8 @@ module RdpEuropeanjamboree
             pdf.move_down 3.mm
             text "Unitteilnehmende*r:", :size =>10
             text "Rücktritt bis 31.12.2020   500 EUR"
-            text "Rücktritt bis 31.03.2020   875 EUR"
-            text "Rücktritt bis 01.05.2020   1.250 EUR"
+            text "Rücktritt bis 31.03.2021   875 EUR"
+            text "Rücktritt bis 01.05.2021   1.250 EUR"
             pdf.move_down 3.mm
             text "Unitleitung", :size =>10
             text "Rücktritt bis 31.12.2020   360 EUR"
