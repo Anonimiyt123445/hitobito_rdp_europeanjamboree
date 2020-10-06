@@ -33,7 +33,7 @@ module RdpEuropeanjamboree
             text "10115 Berlin"
             text "Organisation / Kontakt:"
             text "Organisatorischer Ansprechpartner ist u.a. die Kontingentsleitung."
-            text "Die Kontingentsleitung ist wie folgt zu erreichen: Telefon: 01717417731 oder E-Mail: kontingentsleitung@europeanjamboree.de (Allgemeine Fragen sind an info@europeanjamboree.de zu senden)."
+            text "Die Kontingentsleitung ist wie folgt zu erreichen: E-Mail: kontingentsleitung@europeanjamboree.de (Allgemeine Fragen sind an info@europeanjamboree.de zu senden)."
             pdf.move_down 3.mm
             text "Verantwortlich ist ausschließlich der rdp e.V."
             pdf.move_down 3.mm
@@ -49,7 +49,7 @@ module RdpEuropeanjamboree
             text "Die Teilnahme an den Vorbereitungstreffen ist Voraussetzung für die Teilnahme am European Jamboree. Kann die Teilnahme nicht gewährleistet werden, ist Rücksprache mit der Kontingentsleitung zu halten."
             pdf.move_down 3.mm
             text "Teilnahmevoraussetzung", :size =>12
-            text "Teilnehmer/innen müssen zwischen dem 28. Juli 2003 und dem 17. August 2007 geboren worden sein. Volljährige können nur als Unit- oder Kontingentsleitung, als Kontingentsteammitglied oder als Mitglieder des International Service Teams (IST) am European Jamboree teilnehmen (mit Ausnahme der bereits angemeldeten Teilnehmer/innen, die zwischen dem Juli 2019 und Juli 2020 18 Jahre alt werden. Für diese Personen ist weiterhin eine reguläre Teilnahme möglich). Eine aktive Mitgliedschaft in einem der folgenden Pfadfinder*innenverbände ist Voraussetzung für die Teilnahme:"
+            text "Teilnehmer/innen müssen zwischen dem 28. Juli 2003 und dem 17. August 2007 geboren worden sein. Volljährige können nur als Unit- oder Kontingentsleitung, als Kontingentsteammitglied oder als Mitglieder des International Service Teams (IST) am European Jamboree teilnehmen (mit Ausnahme der bereits angemeldeten Teilnehmer/innen, die zwischen dem Juli 2020 und Juli 2021 18 Jahre alt werden. Für diese Personen ist weiterhin eine reguläre Teilnahme möglich). Eine aktive Mitgliedschaft in einem der folgenden Pfadfinder*innenverbände ist Voraussetzung für die Teilnahme:"
             text "- Bund der Pfadfinderinnen und Pfadfinder (BdP)"
             text "- Deutsche Pfadfinderschaft Sankt Georg (DPSG)"
             text "- Pfadfinderinnenschaft Sankt Georg (PSG)"
