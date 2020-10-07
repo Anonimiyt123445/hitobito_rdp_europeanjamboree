@@ -37,6 +37,22 @@ module RdpEuropeanjamboree::Person
         :sepa_third  <<
         :sepa_comment <<
         :old_phone
+
+        Person::FILTER_ATTRS << :rdp_association << 
+        :rdp_association_region << 
+        :rdp_association_sub_region << 
+        :rdp_association_group << 
+        :role << 
+        :tour << 
+        :registration_locked << 
+        :registration_print_date << 
+        :sepa_signature << 
+        :sepa_date << 
+        :contract_signature << 
+        :media_agreement << 
+        :registration_accepted_date << 
+        :payment_problem << 
+        :payment_recieved 
     end
     
    def has_role(role)
