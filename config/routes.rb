@@ -16,6 +16,7 @@ Rails.application.routes.draw do
     get '/registration', to: "registration#index"
     post '/registration', to: "registration#index"
     put '/registration', to: "registration#index"
+    get '/map' => 'map#index', as: :map
 
     resources :groups do
       resources :people, except: [:new, :create] do
