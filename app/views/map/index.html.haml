@@ -81,7 +81,8 @@
                    map: map,
                    position: pers.location,
                    icon: createPinImage(pers),
-                   unit: pers.unit
+                   unit_old: pers.unit_old,
+                   unit_planned: pers.unit_planned
                  });
       
                  var infowindow = new google.maps.InfoWindow({
@@ -99,6 +100,41 @@
                 });
             };
 
+        }
+
+        // Sets the map on all markers in the array.
+        function setMapOnAll(map) {
+          for (var i = 0; i < markers.length; i++) {
+            markers[i].setMap(map);
+          }
+        }
+
+        // Removes the markers from the map, but keeps them in the array.
+        function clearMarkers() {
+          setMapOnAll(null);
+        }
+  
+        // Shows any markers currently in the array.
+        function showMarkers() {
+          setMapOnAll(map);
+        }
+
+        // Shows any markers currently in the array.
+        function showUnit(name) {
+          for (var i = 0; i < markers.length; i++) {
+            if (markers[i].unit_old == name || markers[i].unit_planned == name) {
+                markers[i].setMap(map);
+            }
+          }
+        }
+  
+        // Shows any markers currently in the array.
+        function hideUnit(name) {
+          for (var i = 0; i < markers.length; i++) {
+            if (markers[i].unit_old == name || markers[i].unit_planned == name) {
+                markers[i].setMap(null);
+            }
+          }
         }
         
         function oldUnitToColour(oldUnit) {
@@ -304,4 +340,12 @@
         var mapScript = document.createElement("script");
         mapScript.src = "https://maps.google.com/maps/api/js?key=AIzaSyAPS-uHgTIug9RlK_wBotqn_hrMTkQeUVM&callback=initMap";
         document.getElementsByTagName("head")[0].appendChild(mapScript)
+
       
+
+%input{:onclick =>"clearMarkers();", :type=>"button", :value=>"Hide Markers"}
+%input{:onclick =>"showMarkers();", :type=>"button", :value=>"Show Markers"}
+%br 
+- @old_units.each do |g|
+  %input{:onclick =>"showUnit('" + g.to_s + "');", :type=>"button", :value=>"Show " + g.to_s}
+  %input{:onclick =>"hideUnit('" + g.to_s + "');", :type=>"button", :value=>"Hide " + g.to_s}

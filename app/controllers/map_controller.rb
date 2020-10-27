@@ -31,6 +31,7 @@ class MapController < ApplicationController
                             
     @users = []
     @groups = Group.all.order('name ASC')
+    @old_units = Person.distinct.pluck(:unit_old)
     people.each do |p|
       if p.address.present? && (p.zip_code.present? || p.town.present?)
         id = p.id
