@@ -10,6 +10,8 @@ class Person::ManagementController < ApplicationController
         @person ||= group.people.find(params[:id])
 
         if (request.put?)
+            @person.first_name = params["person"]["first_name"]
+            @person.last_name = params["person"]["last_name"]
             @person.registration_locked = params["person"]["registration_locked"]
             @person.sepa_signature = params["person"]["sepa_signature"]
             @person.sepa_date = params["person"]["sepa_date"]
@@ -20,6 +22,12 @@ class Person::ManagementController < ApplicationController
             @person.payment_recieved = params["person"]["payment_recieved"]
             @person.role = params["person"]["role"]
             @person.tour = params["person"]["tour"]
+            @person.unit_planned = params["person"]["unit_planned"]
+            @person.sepa_name = params["person"]["sepa_name"]
+            @person.sepa_address = params["person"]["sepa_address"]
+            @person.sepa_zip_code = params["person"]["sepa_zip_code"]
+            @person.sepa_town = params["person"]["sepa_town"]
+            @person.sepa_iban = params["person"]["sepa_iban"]
             @person.save
         end 
     end
@@ -36,6 +44,12 @@ class Person::ManagementController < ApplicationController
         Settings.tour.each { |tour|
             tour[1].to_s == @person.tour ? selected = "selected='selected'" : selected = ""
             @possible_tour += "<option id='" + tour[0].to_s + "' " + selected + " >" + tour[1].to_s + "</option>"
+        }  
+
+        @possible_unit = ""
+        Settings.unit_colors.each { |unit|
+            unit.to_s == @person.unit_planned ? selected = "selected='selected'" : selected = ""
+            @possible_unit += "<option id='" + unit.to_s + "' " + selected + " >" + unit.to_s + "</option>"
         }  
         
     end

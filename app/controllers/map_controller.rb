@@ -7,28 +7,16 @@ class MapController < ApplicationController
 
   skip_authorization_check
   def index
-    @access = true or (current_user.has_role_type(Group::Admins::Admin) ||
-            current_user.has_role_type(Group::Admins::Finance) ||
-            current_user.has_role_type(Group::Kontingentsleitung::Member) ||
-            current_user.has_role_type(Group::Admins::Registration))
+    @access = true or (current_user.has_role_type(Group::Root::Administrator) ||
+            current_user.has_role_type(Group::Root::Registration))
 
     if not @access
       flash[:alert] = "Du hast nicht die Rolle um diese Informationen zu sehen"
       return
     end
 
-    # people = Person.where("(rdp_role='Teilnehmer'
-    # AND (rdp_status_registration_approved=true
-    # OR (rdp_registration_arrival_date BETWEEN '2017-01-01' AND '2018-09-01' AND rdp_association='bdp'AND rdp_status_registration_approved=false)
-    # OR (rdp_registration_arrival_date BETWEEN '2017-01-01' AND '2018-02-23' AND rdp_association='dpsg'AND rdp_status_registration_approved=false)
-    # OR (rdp_registration_arrival_date BETWEEN '2017-01-01' AND '2018-03-07' AND rdp_association='vcp'AND rdp_status_registration_approved=false)
-    # ))")
     people = Person.where("registration_locked=true")
-
-                            # OR (rdp_registration_arrival_date BETWEEN '2017-01-01' AND '2018-09-01' AND rdp_association='bdp'AND rdp_status_registration_approved=false)
-                            # OR (rdp_registration_arrival_date BETWEEN '2017-01-01' AND '2018-03-15' AND rdp_association='dpsg'AND rdp_status_registration_approved=false)
-                            # OR (rdp_registration_arrival_date BETWEEN '2017-01-01' AND '2018-03-15' AND rdp_association='vcp'AND rdp_status_registration_approved=false)
-                            
+   
     @users = []
     @groups = Group.all.order('name ASC')
     @old_units = Person.distinct.pluck(:unit_old)
@@ -53,7 +41,7 @@ class MapController < ApplicationController
         else
             unit_planned = p.unit_planned #Group.where("id=" + p.primary_group_id.to_s)
         end
-        link = '<a href="http://localhost:3000/groups/' + p.primary_group_id.to_s + '/people/' + p.id.to_s + '">' + p.full_name.to_s + '</a>'
+        link = '<a href="http://localhost:3000/groups/' + p.primary_group_id.to_s + '/people/' + p.id.to_s + '/management/edit">' + p.full_name.to_s + '</a>'
         package = p.tour.to_s
         association = p.rdp_association + " - " + p.rdp_association_group
 

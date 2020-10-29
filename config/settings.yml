@@ -51,6 +51,39 @@ tour:
   vt: Vortour
   nt: Nachtour
   kt: Keine Tour
+
+unit_colors:
+  - white
+  - dimgray
+  - silver
+  - darkred
+  - brown
+  - crimson
+  - tomato
+  - moccasin
+  - gold
+  - orange
+  - darkgoldenrod
+  - coral
+  - sienna
+  - kastanie
+  - chartreuse
+  - darkgreen
+  - forestgreen
+  - darkslategray
+  - darkolivegreen
+  - cadetblue
+  - deepskyblue
+  - dodgerblue
+  - cornflowerblue
+  - blue
+  - darkblue
+  - violet
+  - fuchsia
+  - darkslateblue
+  - darkmagenta
+  - blueviolet
+  - black
   
 association_tree:
   DPSG:

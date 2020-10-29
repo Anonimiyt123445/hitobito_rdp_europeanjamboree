@@ -10,6 +10,8 @@
     = field_set_tag do
       = f.labeled_select(:role, raw(@possible_roles))
       = f.labeled_select(:tour, options_for_select(raw(@possible_tour)))
+      = f.labeled_input_field(:unit_old)
+      = f.labeled_select(:unit_planned, options_for_select(raw(@possible_unit)))
     = field_set_tag do
       = f.labeled_input_fields(:sepa_name,
         :sepa_address,
