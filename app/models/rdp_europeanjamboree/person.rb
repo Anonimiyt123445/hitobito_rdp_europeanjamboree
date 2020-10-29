@@ -52,7 +52,9 @@ module RdpEuropeanjamboree::Person
         :media_agreement << 
         :registration_accepted_date << 
         :payment_problem << 
-        :payment_recieved 
+        :payment_recieved <<
+        :unit_old <<
+        :unit_planned
     end
     
    def has_role(role)
