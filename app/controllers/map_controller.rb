@@ -41,7 +41,7 @@ class MapController < ApplicationController
         else
             unit_planned = p.unit_planned #Group.where("id=" + p.primary_group_id.to_s)
         end
-        link = '<a href="http://localhost:3000/groups/' + p.primary_group_id.to_s + '/people/' + p.id.to_s + '/management/edit">' + p.full_name.to_s + '</a>'
+        link = '<a href="https://anmeldung.europeanjamboree.de/groups/' + p.primary_group_id.to_s + '/people/' + p.id.to_s + '/management/edit">' + p.full_name.to_s + '</a>'
         package = p.tour.to_s
         association = p.rdp_association + " - " + p.rdp_association_group
 
