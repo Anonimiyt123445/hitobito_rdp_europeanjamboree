@@ -54,35 +54,22 @@ tour:
 
 unit_colors:
   - white
-  - dimgray
-  - silver
-  - darkred
-  - brown
-  - crimson
+  - kastanie
+  - gold
+  - forestgreen
   - tomato
   - moccasin
-  - gold
-  - orange
-  - darkgoldenrod
-  - coral
   - sienna
-  - kastanie
-  - chartreuse
-  - darkgreen
-  - forestgreen
-  - darkslategray
-  - darkolivegreen
+  - dimgray
+  - coral
+  - silver
   - cadetblue
+  - darkred
+  - darkgoldenrod
   - deepskyblue
-  - dodgerblue
-  - cornflowerblue
   - blue
   - darkblue
   - violet
-  - fuchsia
-  - darkslateblue
-  - darkmagenta
-  - blueviolet
   - black
   
 association_tree:
