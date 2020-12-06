@@ -8,5 +8,18 @@
       :sepa_zip_code,
       :sepa_town,
       :sepa_iban)
-    = form_buttons(f, submit_label: t('activerecord.button.save'), cancel_url: person_path(@person))
+    = render_attrs(@person,:payed)
+    %dl{:class => "dl-horizontal"}
+      %dt{:class => "muted"}
+        = t('activerecord.text.recieved_benefits_info')
+      %dd
+        = (@person.payed - @person.refund).to_s
+    = render_attrs(@person,:refund)
+    = f.labeled_input_fields(:donation)
+    %dl{:class => "dl-horizontal"}
+      %dt{:class => "muted"}
+        = " "
+      %dd
+        = t('activerecord.text.donation_info')
+    = form_buttons(f, submit_label: t('activerecord.button.save_refund'), cancel_url: person_path(@person))
 

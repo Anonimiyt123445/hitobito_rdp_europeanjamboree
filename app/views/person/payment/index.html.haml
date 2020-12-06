@@ -5,9 +5,19 @@
                 :sepa_address,
                 :sepa_zip_code,
                 :sepa_town,
-                :sepa_iban)  
+                :sepa_iban)
+    = render_attrs(@person,
+                :payed)
+    %dl{:class => "dl-horizontal"}
+        %dt{:class => "muted"}
+            = t('activerecord.text.recieved_benefits_info')
+        %dd
+            = (@person.payed - @person.refund).to_s
+    = render_attrs(@person,  :refund,
+                :donation,
+                :refund_locked)
 
-- if can?(:edit, @person) and not @person.registration_locked
+- if can?(:edit, @person) and not @person.refund_locked
     = action_button(t('activerecord.button.edit'),
                     '/groups/' + params[:group_id] + '/people/'+ params[:id] + '/payment/edit',
                     :edit,
@@ -15,3 +25,12 @@
                     method: :get,
                     rel: :tooltip,
                     title: t('activerecord.button.edit_hint'))
+
+- if can?(:edit, @person) and @person.refund_locked and @person.donation > 0
+    = action_button(t('activerecord.button.print_donation_document'),
+                    '/groups/' + params[:group_id] + '/people/'+ params[:id] + '/payment/edit',
+                    :edit,
+                    remote: false,
+                    method: :get,
+                    rel: :tooltip,
+                    title: t('activerecord.button.print_donation_document'))

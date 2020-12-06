@@ -28,6 +28,12 @@ class Person::ManagementController < ApplicationController
             @person.sepa_zip_code = params["person"]["sepa_zip_code"]
             @person.sepa_town = params["person"]["sepa_town"]
             @person.sepa_iban = params["person"]["sepa_iban"]
+            @person.refund_locked = params["person"]["refund_locked"]
+            @person.payed = params["person"]["payed"]
+            @person.refund = params["person"]["refund"]
+            @person.donation = params["person"]["refund_locked"]
+            @person.donation = params["person"]["donation"]
+
             @person.save
         end 
     end

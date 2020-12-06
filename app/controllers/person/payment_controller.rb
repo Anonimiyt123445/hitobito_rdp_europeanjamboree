@@ -16,13 +16,17 @@ class Person::PaymentController < ApplicationController
         @group ||= Group.find(params[:group_id])
         @person ||= group.people.find(params[:id])
 
-
-        if (request.put?) and not @person.registration_locked
+        if (request.put?)
             @person.sepa_name = params["person"]["sepa_name"]
             @person.sepa_address = params["person"]["sepa_address"]
             @person.sepa_zip_code = params["person"]["sepa_zip_code"]
             @person.sepa_town = params["person"]["sepa_town"]
             @person.sepa_iban = params["person"]["sepa_iban"]
+
+            @person.refund_locked = 1
+            @person.donation = params["person"]["donation"]
+            @person.donation_document_path  = params["person"]["donation_document_path"]
+            
             @person.save
 
             if not check_iban(@person.sepa_iban) 
@@ -33,6 +37,10 @@ class Person::PaymentController < ApplicationController
 
     def edit 
         @person ||= group.people.find(params[:id])
+        if @person.payed.nil?
+            @person.refund = 0
+            @person.payed = 0
+        end
     end
 
     private

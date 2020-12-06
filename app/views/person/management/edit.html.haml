@@ -17,7 +17,11 @@
         :sepa_address,
         :sepa_zip_code,
         :sepa_town,
-        :sepa_iban)
+        :sepa_iban,
+        :payed,
+        :refund,
+        :donation,
+        :refund_locked)
     = f.labeled_input_fields(:registration_locked,
       :sepa_signature, 
       :sepa_date, 

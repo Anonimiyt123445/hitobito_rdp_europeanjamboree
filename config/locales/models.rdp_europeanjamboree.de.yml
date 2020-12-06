@@ -101,23 +101,30 @@ de:
         payment_problem: Zahlungsprobleme
         payment_recieved: Zahlung vollständig erhalten
         type: Teilnehmen als
+        payed: Gezahlter Betrag
+        refund: Rückzahlung
+        refund_locked: Rückzahlung angewiesen
+        donation: Spende
+        refund_letter_recieved: Beantragung Spendenbescheinigung erhalten
     
     header:
       registration_header: Für die Anmeldung zum European Jamboree hier registrieren
       magement_header: Teilnehmer bestätigen 
-      sepa_header: Zahlungsdetails für das SEPA Lastschriftmandat
+      sepa_header: Bitte bestätige die Zahlungsdetails für deine Rückzahlung
 
     button:
       register: Registrieren
       edit: Bearbeiten
       edit_hint: Details bearbeiten
       save: Speichern
+      save_refund: Speichern und Rückzahlung anfordern
       print_preview: Vorschau anzeigen
       print_preview_hint: Zur Kontrolle der Anmeldung
       print_submit: Verbindlich drucken
       print_submit_hint: Sperrt bestimmte Felder für weitere bearbeitung
       print_review: Anmeldung einsehen
       print_review_hint: Dokument einsehen
+      print_donation_document: Beantragung Spendenbeschreinigung einsehen
 
     text:
       registration_end: Der Anmeldeschluss war am
@@ -125,6 +132,8 @@ de:
       more_info: Mehr Informationen zu unserem Anmeldeschluss findest du auf unserer
       homepage: Homepage
       homepage_link: https://www.europeanjamboree.de/
+      donation_info: Selbstverständlich kannst Du auch eine Spendenquittung erhalten. Dafür musst du auf der nächsten Seite die 'Beantragung Spendenbeschreinigung' ausfüllen und an das Bundesamt senden.
+      recieved_benefits_info: Bereits erhaltene Leistungen
     
     failure:
       first_name: Bitte gib deinen vollständigen Vornamen ein.

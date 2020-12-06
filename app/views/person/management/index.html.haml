@@ -17,7 +17,10 @@
                     :media_agreement, 
                     :registration_accepted_date,     
                     :payment_problem,
-                    :payment_recieved)
+                    :payment_recieved,
+                    :refund,
+                    :donation,
+                    :refund_locked)
 
 - if can?(:index_invoices, @person)
     = action_button(t('activerecord.button.edit'),
