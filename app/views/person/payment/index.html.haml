@@ -28,8 +28,8 @@
 
 - if can?(:edit, @person) and @person.refund_locked and @person.donation > 0
     = action_button(t('activerecord.button.print_donation_document'),
-                    '/groups/' + params[:group_id] + '/people/'+ params[:id] + '/payment/edit',
-                    :edit,
+                    '/groups/' + params[:group_id] + '/people/'+ params[:id] + '/print/donation',
+                    :envelope,
                     remote: false,
                     method: :get,
                     rel: :tooltip,

@@ -33,6 +33,7 @@ Rails.application.routes.draw do
           put 'print' => 'person/print#index'
           get 'print/preview' => 'person/print#preview'
           get 'print/submit' => 'person/print#submit'
+          get 'print/donation' => 'person/print#donation'
 
           get 'management' => 'person/management#index'
           put 'management' => 'person/management#index'
