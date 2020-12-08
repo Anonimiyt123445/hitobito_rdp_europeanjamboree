@@ -13,6 +13,8 @@ class Person::PaymentController < ApplicationController
     decorates :group, :person
 
     def index 
+        Rails.logger.debug("===== Index")
+
         @group ||= Group.find(params[:group_id])
         @person ||= group.people.find(params[:id])
 
@@ -33,14 +35,24 @@ class Person::PaymentController < ApplicationController
                 flash[:alert] = (I18n.t 'errors.iban')
             end
         end 
+
+        if @person.payed.nil?
+            @person.payed = 0
+        end
+        if @person.refund.nil?
+            @person.refund = 0
+        end 
+
     end
 
     def edit 
         @person ||= group.people.find(params[:id])
         if @person.payed.nil?
-            @person.refund = 0
             @person.payed = 0
         end
+        if @person.refund.nil?
+            @person.refund = 0
+        end 
     end
 
     private
