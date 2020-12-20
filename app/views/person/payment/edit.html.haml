@@ -20,6 +20,11 @@
       %dt{:class => "muted"}
         = " "
       %dd
+        = t('activerecord.text.donation_value_info')
+    %dl{:class => "dl-horizontal"}
+      %dt{:class => "muted"}
+        = " "
+      %dd
         = t('activerecord.text.donation_info')
-    = form_buttons(f, submit_label: t('activerecord.button.save_refund'), cancel_url: person_path(@person))
+    = form_buttons(f, submit_label: t('activerecord.button.save'), cancel_url: person_path(@person))
 

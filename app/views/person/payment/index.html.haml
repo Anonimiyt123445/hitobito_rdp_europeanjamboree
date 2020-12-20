@@ -14,8 +14,12 @@
         %dd
             = (@person.payed - @person.refund).to_s
     = render_attrs(@person,  :refund,
-                :donation,
-                :refund_locked)
+                :donation)
+    %dl{:class => "dl-horizontal"}
+        %dt{:class => "muted"}
+            = t('activerecord.text.refund_donation')
+        %dd
+            = (@person.refund - @person.donation).to_s
 
 - if can?(:edit, @person) and not @person.refund_locked
     = action_button(t('activerecord.button.edit'),
@@ -34,3 +38,11 @@
                     method: :get,
                     rel: :tooltip,
                     title: t('activerecord.button.print_donation_document'))
+- elsif can?(:edit, @person) and @person.donation > 0 and @check_iban
+    = action_button((@person.refund - @person.donation).to_s + t('activerecord.button.activate_refund'),
+                    '/groups/' + params[:group_id] + '/people/'+ params[:id] + '/print/donation',
+                    :envelope,
+                    remote: false,
+                    method: :get,
+                    rel: :tooltip,
+                    title: t('activerecord.button.activate_refund'))

@@ -35,9 +35,19 @@ class Person::PrintController < ApplicationController
   def donation
     @group ||= Group.find(params[:group_id])
     @person ||= group.people.find(params[:id])
-    if @person.refund_locked and self.printable
+    
+    if @person.donation.nil?
+      @person.donation = 310
+    end 
+
+    @person.refund_locked = 1
+    @person.save 
+
+    if @person.donation > 0 and self.printable
       pdf = RdpEuropeanjamboree::Export::Pdf::Donation.render(@person,true)
       send_data pdf, type: :pdf, disposition: 'inline', filename: "Beantragung-EJ-Spendenbescheinigung.pdf"
+    else 
+      redirect_to '/groups/' + @group.id.to_s + '/people/'+ @person.id.to_s + '/payment/'
     end
   end
 

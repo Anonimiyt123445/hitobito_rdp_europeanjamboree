@@ -25,8 +25,11 @@ class Person::PaymentController < ApplicationController
             @person.sepa_town = params["person"]["sepa_town"]
             @person.sepa_iban = params["person"]["sepa_iban"]
 
-            @person.refund_locked = 1
             @person.donation = params["person"]["donation"]
+            if @person.donation < 0 
+                @person.donation = @person.donation * -1 
+            end 
+
             @person.donation_document_path  = params["person"]["donation_document_path"]
             
             @person.save
@@ -36,14 +39,23 @@ class Person::PaymentController < ApplicationController
             end
         end 
 
+        @check_iban = check_iban(@person.sepa_iban) 
+
         if @person.payed.nil?
             @person.payed = 0
         end
         if @person.refund.nil?
             @person.refund = 0
         end 
+        if @person.donation.nil?
+            @person.donation = 310
+        end 
 
     end
+
+    def donation 
+        @person ||= group.people.find(params[:id])
+    end 
 
     def edit 
         @person ||= group.people.find(params[:id])
@@ -52,6 +64,9 @@ class Person::PaymentController < ApplicationController
         end
         if @person.refund.nil?
             @person.refund = 0
+        end 
+        if @person.donation.nil?
+            @person.donation = 310
         end 
     end
 

@@ -102,7 +102,7 @@ de:
         payment_recieved: Zahlung vollständig erhalten
         type: Teilnehmen als
         payed: Gezahlter Betrag
-        refund: Rückzahlung
+        refund: Rückzahlungsanspruch
         refund_locked: Rückzahlung angewiesen
         donation: Spende
         refund_letter_recieved: Beantragung Spendenbescheinigung erhalten
@@ -125,6 +125,8 @@ de:
       print_review: Anmeldung einsehen
       print_review_hint: Dokument einsehen
       print_donation_document: Beantragung Spendenbeschreinigung einsehen
+      activate_refund: € Rückzahlung anweisen 
+
 
     text:
       registration_end: Der Anmeldeschluss war am
@@ -132,8 +134,11 @@ de:
       more_info: Mehr Informationen zu unserem Anmeldeschluss findest du auf unserer
       homepage: Homepage
       homepage_link: https://www.europeanjamboree.de/
+      donation_value_info: Als Höhe der freiwilligen Spende empfehlen wir 310€ [bzw. 240€ bei IST], da dies die Verluste sind, die uns voraussichtlich pro Person entstehen werden.
       donation_info: Selbstverständlich kannst Du auch eine Spendenquittung erhalten. Dafür musst du auf der nächsten Seite die 'Beantragung Spendenbeschreinigung' ausfüllen und an das Bundesamt senden.
       recieved_benefits_info: Bereits erhaltene Leistungen
+      refund_donation: Rückzahlung nach Spende
+
     
     failure:
       first_name: Bitte gib deinen vollständigen Vornamen ein.
