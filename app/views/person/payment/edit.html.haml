@@ -1,6 +1,6 @@
 #main.row-fluid
 - title t('activerecord.header.sepa_header')
-- if can?(:edit, @person)
+- if can?(:edit, @person) and not @person.refund_locked
   = standard_form(@person, {url: '/groups/' + params[:group_id] + '/people/'+ params[:id] + '/payment',  method: :put}) do |f|
     = f.error_messages
     = f.labeled_input_fields(:sepa_name,
