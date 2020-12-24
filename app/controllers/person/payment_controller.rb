@@ -48,7 +48,7 @@ class Person::PaymentController < ApplicationController
             @person.refund = 0
         end 
         if @person.donation.nil?
-            @person.donation = 310
+            @person.donation = 0
         end 
 
     end
@@ -66,7 +66,7 @@ class Person::PaymentController < ApplicationController
             @person.refund = 0
         end 
         if @person.donation.nil?
-            @person.donation = 310
+            @person.donation = 0
         end 
     end
 

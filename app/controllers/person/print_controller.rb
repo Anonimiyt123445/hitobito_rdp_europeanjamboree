@@ -37,7 +37,7 @@ class Person::PrintController < ApplicationController
     @person ||= group.people.find(params[:id])
     
     if @person.donation.nil?
-      @person.donation = 310
+      @person.donation = 0
     end 
 
     @person.refund_locked = 1
