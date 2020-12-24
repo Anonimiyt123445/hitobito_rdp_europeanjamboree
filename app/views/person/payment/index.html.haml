@@ -38,7 +38,7 @@
                     method: :get,
                     rel: :tooltip,
                     title: t('activerecord.button.print_donation_document'))
-- elsif can?(:edit, @person) and @person.donation > 0 and @check_iban
+- elsif can?(:edit, @person) and @check_iban
     = action_button((@person.refund - @person.donation).to_s + t('activerecord.button.activate_refund'),
                     '/groups/' + params[:group_id] + '/people/'+ params[:id] + '/print/donation',
                     :envelope,
